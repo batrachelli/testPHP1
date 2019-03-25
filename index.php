@@ -6,7 +6,7 @@
 
     <div style="border: 0px solid blue; position:relative; top:100px; left:400px; height:200px; width:300px;">
 	
-     <form action="login.php" method="post">
+     <form action="/login.php" method="post">
         <label>Login:</label><br/>
         <input name="login" type="text" size="15" maxlength="15"><br/>
         <label>Password:</label><br/>
