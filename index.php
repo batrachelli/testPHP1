@@ -19,9 +19,7 @@
     //echo "My name ".$name;
     //print_r($name);
     //print_r($GLOBALS['result']);
-    if(isset($GLOBALS['result'])){
-        echo $GLOBALS['result'];
-    }else {echo "...";}
+ 
     ?>
 
 	</div>
