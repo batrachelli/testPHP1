@@ -1,4 +1,7 @@
-<HTML>
+<?php
+    session_start();
+    if (isset($session_login) && $session_login !=""){echo "Welcome, ".$session_login;} else {?>
+    <HTML>
     <HEAD>
         <TITLE>First PHP Script</TITLE>
         </HEAD>
@@ -12,16 +15,8 @@
         <label>Password:</label><br/>
         <input name="password" type="password" size="15" maxlength="15"><br/><br/>
         <input type="submit" value="Submit"><br/><br/>
-    </form>
+    </form>}?>
     
-    <?php
-    //$name="Alex";
-    //echo "My name ".$name;
-    //print_r($name);
-    //print_r($GLOBALS['result']);
- 
-    ?>
-
 	</div>
 	
     </BODY>
